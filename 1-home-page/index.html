@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>REC</title>
 </head>
 <body>
@@ -12,10 +15,21 @@
 
         <div class="navbar">
             <div class="navbar-left">
-                <p>Feedback | FAQ | Career | Archives | Sitemap</p>
+                <a href="">Feedback | </a>
+                <a href="">FAQ | </a>
+                <a href="">Career | </a>
+                <a href="">Archives | </a>
+                <a href="">Sitemap</a>
+                
             </div>
             <div class="navbar-right">
-                <p>Skip to Main Content | Screen Reader Access | A- A A+ | English</p>
+                <a href="">Skip to Main Content | </a>
+                <a href="">Screen Reader Access | </a>
+                <a href="">A- A A+ | </a>
+                <a href="">English | </a>
+                <a href="">
+                    <img src="./assets/magnifying-glass.svg">
+                </a>
             </div>
         </div>
 
@@ -26,10 +40,10 @@
                 <img src="./assets/pfc.png" />
             </div>
             <div class="header-right">
-                <p>Home</p>
-                <p>About us</p>
-                <p>Grievances</p>
-                <p>Contact us</p>
+                <a href=""><img src="./assets/home-button.svg"></a>
+                <a href="">About us</a>
+                <a href="">Grievances</a>
+                <a href="">Contact us</a>
                 <button>Register/SignIn</button>
             </div>
            
@@ -39,11 +53,20 @@
 
         <div class="title-container">
             
-            <h1 class="title">Integrated platform <br>for power<br> sector schemes</h1>
+            <h1 class="title">Integrated platform <br>for <b>power<br>sector schemes</b></h1>
 
             <div class="pm-statement">
                 <img src="./assets/narendra_modi.png">
-                <p>"Energy sector plays big role in the progress of the country and contributes to both ease of living and ease of doing business"<br>-Shree Narendra Modi<br>Hon'ble Prime Minister of India</p>
+
+                <div class="statement">
+                    <img src="./assets/quotation-mark-2.svg" class="quote-1">
+                    <h2>Energy sector plays big role in the progress of the country and contributes to both ease of living and ease of doing business</h2>
+                    <img src="./assets/quotation-mark-2.svg" class="quote-2">
+                    <h3>-Shree Narendra Modi</h3>
+                    <p>Hon'ble Prime Minister of India</p>
+                    
+                </div>
+                
 
             </div>
         </div>
@@ -53,17 +76,17 @@
             <div class="schemes">
                 
                 <div class="scheme">
-                    <img src="./assets/scheme-3.png">
-                    <h2>Revamped Distribution Sector Scheme</h2>
+                    <img src="./assets/scheme-1-2x.png">
+                    <h3>Revamped Distribution Sector Scheme</h3>
                 </div>
 
                 <div class="scheme">
                     <img src="./assets/scheme-2.png">
-                    <h2>Additional GSDP Borrowing Space</h2>
+                    <h3>Additional GSDP Borrowing Space</h3>
                 </div>
                 <div class="scheme">
                     <img src="./assets/scheme-3.png">
-                    <h2>PRAAPTI</h2>
+                    <h3>PRAAPTI</h3>
                 </div>
 <!-- 
                 <img src="./assets/scheme-3.png">
@@ -72,34 +95,36 @@
             </div>
         </div>
 
+
+
         <div class="reporting-module-container">
             <h1>Reporting Module</h1>
             <div class="reporting-module">
 
                 <div class="module-element">
                     <img src="./assets/reporting-module-img-1.png" >
-                    <h2>Energy Accounting</h2>
+                    <p>Energy<br>Accounting</p>
                 </div>
 
                 <div class="module-element">
                     <img src="./assets/reporting-module-img-2.png" >
-                    <h2>Service Rating</h2>
+                    <p>DISCOM Consumer<br>Service Rating</p>
                 </div>
                 <div class="module-element">
                     <img src="./assets/reporting-module-img-3.png" >
-                    <h2>Integrated Rating</h2>
+                    <p>DISCOM<br>Integrated Rating</p>
                 </div>
                 <div class="module-element">
                     <img src="./assets/reporting-module-img-4.png" >
-                    <h2>Power Utility</h2>
+                    <p>Power Utilities<br>Performance</p>
                 </div>
                 <div class="module-element">
                     <img src="./assets/reporting-module-img-5.png" >
-                    <h2>Key Parameters</h2>
+                    <p>Key Regulatory<br>Parameters</p>
                 </div>
                 <div class="module-element">
                     <img src="./assets/reporting-module-img-6.png" >
-                    <h2>SERC</h2>
+                    <p>Overview of<br>SERC</p>
                 </div>
 
             </div>
@@ -107,8 +132,16 @@
 
 
         <div class="other-module-container">
-            <div class="press-release">
-                <h1>Press Relese</h1>
+            <div class="press-release">   
+                
+                <div class="press-release-title">
+                    <h1>Press Relese</h1>
+                    <div class="press-title-buttons">
+                        <p>View All</p>
+                        <img src="./assets/arrow-left.svg">
+                        <img src="./assets/arrow-right.svg">
+                    </div>
+                </div>
                 <div class="press-item">
                     <p><b>29 December 2022</b></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione possimus eos ipsam dignissimos ipsa! Earum, blanditiis inventore sit voluptate harum doloribus illum aspernatur ducimus fugit ratione nesciunt dicta cupiditate minus..</p>
@@ -129,10 +162,30 @@
 
             </div>
             <div class="media-gallery">
-                <h1>Media Gallery</h1>
+                <div class="media-gallery-title">
+                    <h1>Media Gallery</h1>
+                    <div class="gallery-title-buttons">
+                        <p>View All</p>
+                        <img src="./assets/arrow-left.svg">
+                        <img src="./assets/arrow-right.svg">
+                    </div>
+                </div>
+                
+
                 <div class="gallery">
-                    <img src="./assets/gallery-image-1.png">
-                    <img src="./assets/gallery-image-2.png">
+                    <div class="gallery-item">
+                        <img src="./assets/gallery-image-1.png">
+                        <img src="./assets/magnifying-glass-2.svg" class="magnifier">
+                        <p>Vulnerable Hydro Projects/Power Station, New Delhi</p>
+
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./assets/gallery-image-2.png">
+                        <img src="./assets/youtube.svg" class="youtube">
+                        <p>National Energy Conservation Awards Delhi</p>
+                    </div>
+                    
+                   
                 </div>
             </div>
         </div>
